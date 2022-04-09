@@ -1,9 +1,13 @@
-
+/*
+ * File: 4-puts
+ * Author:yinti Agati <tiagati@yahoo.com>
+ */
 #include <stdio.h>
 
 /* 
- * task 4-Puts.c 
- *This program is to print the statemendt "Programming is like building a multilingual puzzle"
+ * This program is to print the statement "Programming is like building a multilingual puzzle"
+ * followed by a newline.
+ * It always returns 0.	
  */
 int main(void)
 {
@@ -12,4 +16,3 @@ int main(void)
 	
 	return (0);
 }
-
