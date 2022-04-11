@@ -8,7 +8,8 @@
 #include <stdio.h>
 
 /**
- * main - prints "with proper grammar, but the outcome is a piece of art,"
+ * main - prints "with proper grammar, but the outcome is a piece of art," 
+ * 		followed by a new line.
  *
  * return: 0 always.
  */
