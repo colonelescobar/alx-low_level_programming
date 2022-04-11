@@ -8,9 +8,9 @@
 #include <stdio.h>
 
 /**
- * main - This program prints the phrase "with proper grammar, but the outcome is a piece of art,"
+ * main - prints "with proper grammar, but the outcome is a piece of art,"
  *
- * returns 0 always.
+ * return: 0 always.
  */
 
 int main(void)
