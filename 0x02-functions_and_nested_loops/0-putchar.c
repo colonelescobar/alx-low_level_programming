@@ -6,7 +6,7 @@
  *
  */
 
-char main(void)
+char main()
 {
 	char result;
 	result = "_putchar\n";
