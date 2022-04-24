@@ -1,21 +1,17 @@
-#include <stdio.h>
-#include <unistd.h>
-
-/**
- *main - Prints _putchar and a new line.
+#include<stdio.h>
+/*
+ * main - This code prints "_putchar" and adds a newline.
  *
- *Return: 0
+ * Return: putchar.
+ *
  */
 
-int main(void)
+char main(void)
 {
-	int i;
-	char P[] = "_putchar";
+	char result;
+	result = "_putchar\n";
 
-	for (i = 0; i < 8; i++)
-{
-	putchar(P[i]);
-}
-	putchar('\n');
-	return (0);
+	return (result);
+
+
 }
