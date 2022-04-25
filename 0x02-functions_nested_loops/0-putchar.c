@@ -5,13 +5,29 @@
  * Return: putchar.
  *
  */
-
-char main(void)
+int main(void)
 {
-	char result;
-	result = "_putchar\n";
 
-	return (result);
 
+			_putchar('_');
+
+				_putchar('p');
+
+					_putchar('u');
+
+						_putchar('t');
+
+							_putchar('c');
+
+								_putchar('h');
+
+									_putchar('a');
+
+										_putchar('r');
+
+											_putchar('\n');
+
+
+												return (0);
 
 }
