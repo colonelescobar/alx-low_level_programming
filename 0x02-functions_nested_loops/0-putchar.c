@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 /*
  * main - This code prints "_putchar" and adds a newline.
  *
@@ -7,27 +7,15 @@
  */
 int main(void)
 {
+	char var1[] = "_putchar";
+	
+	int c;
 
-
-			_putchar('_');
-
-				_putchar('p');
-
-					_putchar('u');
-
-						_putchar('t');
-
-							_putchar('c');
-
-								_putchar('h');
-
-									_putchar('a');
-
-										_putchar('r');
-
-											_putchar('\n');
-
-
-												return (0);
+	for (c = 0; c < 8; c++)
+	{
+		_putchar(var1[c]);
+	}
+	_putchar('\n');
+	return (0);
 
 }
