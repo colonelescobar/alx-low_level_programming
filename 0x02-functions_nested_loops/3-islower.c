@@ -5,9 +5,8 @@
  *
  * @c: takes in a character.
  *
- * Return - 1 if it matches, 0 if it doesn't.
+ * Return: 1 if it matches, 0 if it doesn't.
  */
-
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
