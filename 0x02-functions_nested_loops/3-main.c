@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- * _islower - This function returns a value of 1 if the case of an alphabet
- * is lower and 0 if it isn;t.
+ * main - Check the code.
+ * return: 0 always.
  *
  */
 
 
-int _islower(int c)
+int main(void)
 {
-	int c;
+	int r;
 
-	if ( c >= 'a' && c <= 'z' )
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	r = _islower('H');
+	_putchar(r + '0');
+	r = _islower('o');
+	_putchar(r + '0');
+	r = _islower(108);
+	_putchar(r + '0');
+	_putchar('\n');
+	return (0);
 }
