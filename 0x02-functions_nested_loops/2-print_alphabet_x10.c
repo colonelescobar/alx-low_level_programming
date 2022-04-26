@@ -6,12 +6,19 @@
  * return : always returns 0
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
-	int count;
+	int count = 0;
+	char c;
 	
-	for (count = 0; count <=10; count++)
+	while (count < 10)
 	{
-		_putchar("")
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_putchar(c);
+		}
+		
+		count++;
+		_putchar('\n');
 	}
 }
