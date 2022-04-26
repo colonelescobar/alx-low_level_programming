@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * main - This code prints "_putchar" and adds a newline.
  *
  * Return: putchar.
