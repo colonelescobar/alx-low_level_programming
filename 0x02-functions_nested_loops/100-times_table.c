@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_times_table - A funciton that prints a times table when n is
- *			less than 15 and greater than 0.
- * @n - 'n' isnumber input for the time table to be printed.
+ * print_times_table - Prints the times table of the input,
+ *                     starting with 0.
+ * @n: The value of the times table to be printed.
  */
 
 void print_times_table(int n)
