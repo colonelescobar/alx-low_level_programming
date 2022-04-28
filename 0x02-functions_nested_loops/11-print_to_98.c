@@ -1,16 +1,33 @@
 #include "main.h"
-
+#include <stdio.h>
+#include <unistd.h>
 /**
- * add - function that adds two integers and returns the result.
- * @n1: input integer 1
- * @n2: input integer 2
+ * print_to_98 - This function increments or decrements a given integer
+ *		input till the integer 98 while printing every decrement/increment.
+ *		prints a newline when done.
+ * @n: input integer.
+ * 
  * Return: int.
  */
 
-int add(int n1, int n2)
+void print_to_98(int n)
 {
-	int res;
+		
+	if ( n >= 98)
+	{
+		while (n !=98)
+		{
+			printf("%d",n);
+			n--;
+		}
+		printf("%d\n", n);
+	}
 
-	res = n1 + n2;
-	return (res);
+	else if (n <= 98)
+	{
+		while (n < 98)
+		{
+			printf("%d", n++);
+		}
+	}
 }
