@@ -9,7 +9,7 @@
  * Return: Nothing.
  */
 
-void main(int n)
+int main(int n)
 {
 	n = 1024;
 
@@ -20,5 +20,5 @@ void main(int n)
 				printf("%d, ", n);
 			}
 		 }
-
+	return (0);
 }
