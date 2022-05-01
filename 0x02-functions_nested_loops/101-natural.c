@@ -11,7 +11,6 @@
 
 int main(int n)
 {
-	n = 1024;
 
 	for (n = 0;n < 1024; n++)
 		 {
