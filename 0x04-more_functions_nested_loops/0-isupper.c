@@ -3,15 +3,15 @@
 /**
  * _isupper - Checks the case of an input, whether uppercase/lowercase.
  *
- *
- * Return 0: returns 1 when uppercase and/or 0 otherwise.
+ * @c - input
+ * return - returns 1 when uppercase and/or 0 otherwise.
  *
  */
 
 int _isupper(int c)
 {
 
-	if (c >= 65 && c <= 98)
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
