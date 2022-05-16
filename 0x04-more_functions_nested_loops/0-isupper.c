@@ -1,10 +1,10 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * _isupper - THis function checks the case of an input, whether uppercase/lowercase.
- * @c - input
+ * _isupper - checks the case of an input, whether uppercase/lowercase.
+ * @c - input to be checked.
  *
- * return: returns 1 when uppercase and/or 0 otherwise.
+ * Return: returns 1 when uppercase and/or 0 otherwise.
  */
 
 int _isupper(int c)
