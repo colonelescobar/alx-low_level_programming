@@ -4,7 +4,8 @@
 /**
  * mul - This function multiplies to digits.
  * @a: one of the inputs.
- * @b: Second input
+ * @b: Second input.
+ *
  * return: returns a*b.
  */
 
