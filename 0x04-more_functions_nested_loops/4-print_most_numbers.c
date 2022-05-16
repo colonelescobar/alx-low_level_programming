@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * Print_most_numbers - This prints 0 to 9(except 2 & 4) then a new line.
+ * print_most_numbers - This prints 0 to 9(except 2 & 4) then a new line.
+ *
  * Return: void.
  */
 
@@ -12,7 +13,7 @@ void print_most_numbers(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		if( i == 2 || i == 4)
+		if (i == 2 || i == 4)
 		{
 			continue;
 		}
