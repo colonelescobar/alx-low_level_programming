@@ -6,7 +6,7 @@
  * @a: one of the inputs.
  * @b: Second input.
  *
- * return: returns a*b.
+ *Return: returns a*b.
  */
 
 int mul(int a, int b)
