@@ -5,7 +5,7 @@
  * mul - This function multiplies to digits.
  * @a: one of the inputs.
  * @b: Second input
- * @Product: Variable that stores result of a*b.
+ * @result: Variable that stores result of a*b.
  *
  * return: returns result.
  */
@@ -16,5 +16,5 @@ int mul(int a, int b)
 
 	result = a * b;
 
-	return(result);
+	return (result);
 }
