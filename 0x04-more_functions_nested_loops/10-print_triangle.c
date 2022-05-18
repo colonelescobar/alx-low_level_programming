@@ -3,14 +3,14 @@
 
 /**
  * print_triangle - print triangle of size "size" using "_putchar" except for
- * size = 0.
+ * @size = 0.
  *
  * Return: void.
  */
 
 void print_triangle(int size)
 {
-	int i,j;
+	int i, j;
 
 	if (size <= 0)
 	{
@@ -22,7 +22,7 @@ void print_triangle(int size)
 		{
 			for (j = 0; j < size; j++)
 			{
-				if(i + j >= size)
+				if (i + j >= size)
 				{
 					_putchar('#');
 				}
