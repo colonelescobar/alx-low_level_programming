@@ -7,7 +7,7 @@
  * Return: nothing.
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -37,4 +37,6 @@ void fizz_buzz(void)
 	 }
 
 	printf("\n");
+
+	return (0);
 }
