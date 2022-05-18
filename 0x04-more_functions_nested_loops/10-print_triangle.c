@@ -3,7 +3,8 @@
 
 /**
  * print_triangle - print triangle of size "size" using "_putchar" except for
- * @size = 0.
+ * 0
+ * @size: input for square size.
  *
  * Return: void.
  */
