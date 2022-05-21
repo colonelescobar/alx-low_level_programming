@@ -17,7 +17,7 @@ int main(void)
 	unsigned long c;
 
 	printf("%lu, %lu, ", a, b);
-	for (counter = 1; counter <= 95; counter++)
+	for (counter = 1; counter <= 96; counter++)
 	{
 		if (counter != 48)
 		{	c = a + b;
