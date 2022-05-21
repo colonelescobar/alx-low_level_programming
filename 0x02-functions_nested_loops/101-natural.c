@@ -9,8 +9,9 @@
  * Return: Nothing.
  */
 
-void main(int n)
+void main(void)
 {
+	int n;
 	int sum = 0;
 
 	for (n = 0;n <= 1024; n++)
