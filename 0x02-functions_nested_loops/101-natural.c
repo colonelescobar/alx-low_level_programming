@@ -9,7 +9,7 @@
  * Return: Nothing.
  */
 
-void main(void)
+int main(void)
 {
 	int n;
 	int sum = 0;
@@ -22,4 +22,5 @@ void main(void)
 			}
 		 }
 	printf("%d\n", sum);
+	return (0);
 }
