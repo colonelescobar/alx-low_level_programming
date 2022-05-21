@@ -12,23 +12,23 @@
 
 int main(void)
 {
-	unsigned long int counter;
-	unsigned long int a = 1, b = 2;
-	unsigned long int c;
+	unsigned long long int counter;
+	unsigned long long int a = 1, b = 2;
+	unsigned long long int c;
 
 	printf("%lu, %lu, ", a, b);
 	for (counter = 1; counter <= 96; counter++)
 	{
 		if (counter != 48)
 		{	c = a + b;
-			printf("%lu, ", c);
+			printf("%llu, ", c);
 			a = b;
 			b = c;
 		}
 
 	}
 	c = a + b;
-	printf("%lu\n", c);
+	printf("%llu\n", c);
 	return (0);
 
 }
