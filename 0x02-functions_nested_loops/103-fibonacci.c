@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 50 elements of the fibonnacci series starting
- * from 1.
+ * main - prints the sum elements of the fibonnacci series less 
+ * than 4000000 and even.
  *
  *
  * Return: return 0 when done.
@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	unsigned long counter;
+
 	unsigned long a = 1, b = 2;
 	unsigned long c, sum = 0;
 
