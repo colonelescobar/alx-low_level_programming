@@ -16,7 +16,7 @@ int main(void)
 	long unsigned c;
 
 	printf("%lu, %lu, ", a, b);
-	for (counter = 1; counter <= 48; counter++)
+	for (counter = 1; counter <= 49; counter++)
 	{
 		if( counter != 48)
 		{	c = a + b;
