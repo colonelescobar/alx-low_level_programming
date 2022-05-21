@@ -16,7 +16,7 @@ int main(void)
 	unsigned long long int a = 1, b = 2;
 	unsigned long long int c;
 
-	printf("%lu, %lu, ", a, b);
+	printf("%llu, %llu, ", a, b);
 	for (counter = 1; counter <= 96; counter++)
 	{
 		if (counter != 48)
