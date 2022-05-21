@@ -13,10 +13,10 @@
 int main(void)
 {
 
-	unsigned long a = 1, b = 2;
-	unsigned long c, sum = 22;
+	unsigned long a = 1, b = 1;
+	unsigned long c, sum = 0;
 
-	while (sum <= 4000000)
+	while (a <= 4000000)
 	{
 		c= a + b;
 		a = b;
