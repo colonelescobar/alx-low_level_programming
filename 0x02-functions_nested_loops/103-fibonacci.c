@@ -14,7 +14,7 @@ int main(void)
 {
 
 	unsigned long a = 1, b = 2;
-	unsigned long c, sum = 0;
+	unsigned long c, sum = 22;
 
 	while (sum <= 4000000)
 	{
