@@ -12,9 +12,9 @@
 
 int main(void)
 {
-	unsigned long counter;
-	unsigned long a = 1, b = 2;
-	unsigned long c;
+	unsigned long int counter;
+	unsigned long int a = 1, b = 2;
+	unsigned long int c;
 
 	printf("%lu, %lu, ", a, b);
 	for (counter = 1; counter <= 96; counter++)
