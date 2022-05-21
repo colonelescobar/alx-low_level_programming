@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the sum elements of the fibonnacci series less 
+ * main - prints the sum elements of the fibonnacci series less
  * than 4000000 and even.
  *
  *
@@ -18,11 +18,11 @@ int main(void)
 
 	while (a <= 4000000)
 	{
-		c= a + b;
+		c = a + b;
 		a = b;
 		b = c;
-		
-		if(b % 2 == 0)
+
+		if (b % 2 == 0)
 		{
 			sum += b;
 		}
