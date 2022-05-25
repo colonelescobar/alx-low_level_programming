@@ -1,1 +1,1 @@
-This repository contains code in relation to my low level programming course with ALX and Holberton.
+This file contains tasks in relation to singly linked lists for the ALX sSoftware Engineering program
