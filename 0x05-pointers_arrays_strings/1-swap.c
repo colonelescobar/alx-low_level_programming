@@ -6,7 +6,7 @@
  * @a: one of the input integers.
  * @b: second input integer.
  * @c: value placeholder.
- * Return: Returns nothing. 
+ * Return: Returns nothing.
  */
 
 void swap_int(int *a, int *b)
