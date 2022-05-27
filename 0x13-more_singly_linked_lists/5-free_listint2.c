@@ -20,8 +20,4 @@ void free_listint2(listint_t **head)
 	free(*head);
 	*head = NULL;
 }
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 54696bdcff06b09f8cdcfcb552ced99e108cf7ee
