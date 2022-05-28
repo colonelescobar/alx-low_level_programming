@@ -8,7 +8,7 @@
  *Return: void that means our answer is correct
  */
 
-int _puts (char *str)
+void _puts (char *str)
 {
 	int u;
 
