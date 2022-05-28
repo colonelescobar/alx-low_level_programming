@@ -7,7 +7,7 @@
  *Return: void that means our answer is correct
  */
 
-int _strlen(char *str)
+int _puts (char *str)
 {
 	int u;
 
