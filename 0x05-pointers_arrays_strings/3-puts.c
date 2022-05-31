@@ -3,7 +3,7 @@
 
 /**
  *_puts - prints the characters of a string.
- * @s: A pointer to an int that will be changed/updated
+ * @str: A pointer to a char that will be printed.
  *
  *Return: void that means our answer is correct
  */
