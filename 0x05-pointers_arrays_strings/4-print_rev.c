@@ -12,16 +12,12 @@ void print_rev(char *s)
 {
 	int i;
 
-	i = _strlen(s);
-
-	while (i != 0)
+	for (i = _strlen(s); i >= 0; i--)
 	{
 		_putchar(s[i]);
-		--i;
 	}
-	printf("\n");
+	_putchar("\n");
 }
-
 
 /**
  *_strlen -length of a string
