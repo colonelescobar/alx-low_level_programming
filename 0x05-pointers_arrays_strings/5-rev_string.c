@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev - prints reversed string, followed by a new line
+ * rev_string - prints reversed string, followed by a new line
  * @s: pointer to the string to print
  * Return: void
  */
@@ -15,13 +15,13 @@ void rev_string(char *s)
 		i++;
 
 	j = s;
-	
+
 
 	while (i--)
 	{
 		s[k] = j[i];
-		k++;
 		_putchar(s[k]);
+		k++;
 	}
 
 	_putchar('\n');
