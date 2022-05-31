@@ -1,12 +1,23 @@
-#include <unistd.h>
+#include "main.h"
 /**
- * -putchar - prints characters of the variable c unto the screen.
- * Return: 1 on success
- * on error, -1 is returned.
- * 
+ * print_rev - prints reversed string, followed by a new line
+ * @s: pointer to the string to print
+ * Return: void
  */
 
-int _putchar(char c)
+void print_rev(char *s)
 {
-		return (write(1, &c, 1));
+	int i = 0;
+
+	while (s[i])
+		i++;
+
+	while (i--)
+	{
+		_putchar(s[i]);
+	}
+
+	_putchar('\n');
 }
+© 2022 GitHub, Inc.
+Terms
