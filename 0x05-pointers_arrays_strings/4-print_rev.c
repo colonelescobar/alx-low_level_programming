@@ -11,13 +11,15 @@
 void print_rev(char *s)
 {
 	int i;
-
+	printf("%d\n", _strlen(s));
+	
 	for (i = _strlen(s); i >= 0; i--)
 	{
 		_putchar(s[i]);
 	}
 	_putchar("\n");
 }
+
 
 /**
  *_strlen -length of a string
