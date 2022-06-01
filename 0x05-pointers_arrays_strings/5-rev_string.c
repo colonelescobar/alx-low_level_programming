@@ -19,7 +19,7 @@ void rev_string(char *s)
 
 	while  (i--)
 	{
-		k++
+		k++;
 		s[k] = j[i]; /* code */
 	}
 
