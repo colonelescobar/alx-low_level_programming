@@ -25,7 +25,7 @@ void rev_string(char *s)
 		k++;
 		s[k] = j[i]; /* code */
 
-		printf("when k is = %d, i is = %d", k, o);
+		printf("when k is = %d, i is = %d", k, i);
 	}
 
 }
