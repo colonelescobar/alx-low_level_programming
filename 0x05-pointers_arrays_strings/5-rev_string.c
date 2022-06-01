@@ -16,8 +16,8 @@ void rev_string(char *s)
 
 	j = s;
 	k = 0;
-	
-	printf("%d", i);
+
+	printf("%d\n", i);
 	printf("%s", s);
 
 	while  (i--)
@@ -25,7 +25,7 @@ void rev_string(char *s)
 		k++;
 		s[k] = j[i]; /* code */
 
-		printf("when k is = %d, i is = %d", k, i);
+		printf("when k is = %d, i is = %d\n", k, i);
 	}
 
 }
