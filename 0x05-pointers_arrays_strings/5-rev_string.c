@@ -16,8 +16,8 @@ void rev_string(char *s)
 
 	j = s;
 	k = 0;
-	s = 0;
-	
+	s = NULL;
+
 	while  (i--)
 	{
 		k++;
