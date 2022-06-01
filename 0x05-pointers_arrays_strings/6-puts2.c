@@ -14,10 +14,10 @@ void puts2(char *str)
 
 	i = 0;
 
-	while (s[i] != '\0')
+	while (str[i] != '\0')
 	{
 		i++;
-		printf("%c", s[i]);
+		printf("%c", str[i]);
 
 	}
 	printf("\n");
