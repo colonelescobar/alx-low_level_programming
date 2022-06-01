@@ -16,12 +16,16 @@ void rev_string(char *s)
 
 	j = s;
 	k = 0;
-	s = NULL;
+	
+	printf("%d", i);
+	printf("%s", s);
 
 	while  (i--)
 	{
 		k++;
 		s[k] = j[i]; /* code */
+
+		printf("when k is = %d, i is = %d", k, o);
 	}
 
 }
