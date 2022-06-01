@@ -17,11 +17,12 @@ void rev_string(char *s)
 	j = s;
 	k = 0;
 
-	while (i--)
+	while  (i >= 0)
 	{
+		i--;
 		k++;
 		s[k] = j[i]; /* code */
 	}
-printf("%s", s);
+
 }
 
