@@ -11,21 +11,15 @@ void rev_string(char *s)
 	int i, k;
 	char *j;
 
-	k = 0;
-
 	for (i = 0; s[i] != '\0'; i++)
 		;
 
 	j = s;
-
-	while (s[i] != '\0')
-	{
-		j[i] = s[i];
-	}
+	k = 0;
 
 	while (i--)
 	{
-		k--;
+		k++;
 		s[k] = j[i]; /* code */
 	}
 printf("%s", s);
