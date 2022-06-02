@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * atoi - A function that converts a string to an integer.
+ * _atoi - A function that converts a string to an integer.
  * @s: character arguement.
- * 
+ *
  * Return: integer.
  */
 
