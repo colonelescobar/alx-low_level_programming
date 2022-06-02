@@ -14,11 +14,10 @@ void _puts(char *str)
 
 	u = 0;
 
-	while (str[u] != '\0')
+	for (u = 0; str[u] != '\0'; u++;)
 	{
 
 		_putchar(str[u]);
-		u++;
 	}
 	printf("\n");
 
