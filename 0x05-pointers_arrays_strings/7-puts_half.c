@@ -15,7 +15,7 @@ void puts_half(char *str)
 		;
 
 	string_length = i;
-
+	printf("String length is %d\n", string_length);
 	if (string_length % 2 != 0)
 	{
 		for (i = ((string_length - 1)) / 2; str[i] != '\0'; i++)
