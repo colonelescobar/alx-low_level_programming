@@ -6,7 +6,7 @@
  * the terminating null byte "\0".
  * @dest: destination variable.
  * @src: source value holder.
- * 
+ *
  * Return: Nothing
  */
 
@@ -14,6 +14,7 @@ char *_strcpy(char *dest, char *src)
 {
 	dest = src;
 
-	return(dest);
+	printf("\n");
 
+	return (dest);
 }
