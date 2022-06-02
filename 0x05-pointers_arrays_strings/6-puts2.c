@@ -16,9 +16,15 @@ void puts2(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		_putchar(str[i]);
+		if ( i == 0)
+		{
+			_putchar(str[0]);
+		}
+		else if ( i % 2 == 0)
+		{
+			_putchar(str[i]);
+		}
 
-	}
-
+}
 	printf("\n");
 }
