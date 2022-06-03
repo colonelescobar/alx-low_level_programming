@@ -3,9 +3,10 @@
 
 /**
  * _strncat - This function concatenates  n elements of "src"
- * strings to dest strings and adds "\0" if n >= src length
+ * strings to dest strings and adds "\0" if n >= src length.
  * @dest: destination of concatenated strings.
  * @src: source string.
+ * @n: number of characters to be concatenated from src.
  * Return: concatenated strings.
  */
 
