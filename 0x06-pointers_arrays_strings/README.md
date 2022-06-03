@@ -1,0 +1,1 @@
+This file contains functions in relation to the use of pointers and strings.
