@@ -18,7 +18,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	string_length = strlen(src); /* finds string length excluding null byte. */
 
-	for (i = 0; i < strlen(src) ; i++)
+	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
 		dest[i] = src[i]; /* copies src into dest */
 	}
