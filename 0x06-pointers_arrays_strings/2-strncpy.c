@@ -3,13 +3,13 @@
 #include <stdio.h>
 
 /**
- * _strcpy - This funcction copies the stringg given by src to dest includidng
+ * _strncpy - This function copies the string given by src to dest includidng
  * the null byte.
  * @src: Source string
  * @dest: destination string
- *
+ * @n: number of characters to copy.
  * Return: void/nothing.
- * 
+ *
  */
 
 char *_strncpy(char *dest, char *src, int n)
