@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 
 /**
  * _strcpy - This funcction copies the stringg given by src to dest includidng
@@ -15,12 +16,18 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
+	*dest = *src;
+
 	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
 		dest[i] = src[i]; /* copies src into dest */
 	}
-
-	dest[i] = '\0'; /* inserts the null byte.*/
+	for (; i < n; i++)
+	{
+		dest[i] = '\0';/* code */
+	}
+	
+	 /* inserts the null byte.*/
 
 	return (dest);
 
