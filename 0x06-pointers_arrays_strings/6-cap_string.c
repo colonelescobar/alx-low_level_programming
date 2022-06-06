@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * cap_string - A function that capitalizes a string. 
+ * cap_string - A function that capitalizes a string.
  * @str: inpite string.
  *
  * Return: char.
@@ -10,11 +10,18 @@
 
 char *cap_string(char *str)
 {
-	int i;
+	int i = 0;
+	/* int j; */
 
-	for (i = 0; str[i] >= 'a' && str[i] <= 'z'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		str[i] = str[i] - 32;
+
+		if (str[i] >= 0 && str[i] <= 32 )
+			{
+				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
+					str[i + 1] = str[i + 1] - 32;
+			}
+		
 	}
 	return (str);
 }
