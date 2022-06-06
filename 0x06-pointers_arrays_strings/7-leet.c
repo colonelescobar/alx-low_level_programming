@@ -10,16 +10,16 @@
 
 char *leet(char *str)
 {
-	char a[] = {'a','e','o','t','l'};
-	char b[] = {'A','E','O','T','L'};
-	char c[] = {'4','3','0','7','1'};
+	char a[] = {'a', 'e', 'o', 't', 'l'};
+	char b[] = {'A', 'E', 'O', 'T', 'L'};
+	char c[] = {'4', '3', '0', '7', '1'};
 	int i, j;
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		for (j = 0; j < 5; j++)
 		{
-			if (str[i] == a[j]  || str[i] == b[j])
+			if (str[i] == a[j] || str[i] == b[j])
 			{
 				str[i] = c[j];
 			}
