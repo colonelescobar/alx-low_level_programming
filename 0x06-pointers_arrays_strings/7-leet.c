@@ -10,10 +10,10 @@
 
 char *leet(char *str)
 {
-	char a[j] = {'a','e','o','t','l'};
-	char b[j] = {'A','E','O','T','L'};
-	char c[j] = {'4','3','0','7','1'};
-	int i;
+	char a[] = {'a','e','o','t','l'};
+	char b[] = {'A','E','O','T','L'};
+	char c[] = {'4','3','0','7','1'};
+	int i, j;
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
