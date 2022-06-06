@@ -3,6 +3,8 @@
 
 /**
  * string_toupper - Changes all the lowercase letters of a string ot uppercase.
+ * @str: string input.
+ *
  * Return: char.
  *
  */
