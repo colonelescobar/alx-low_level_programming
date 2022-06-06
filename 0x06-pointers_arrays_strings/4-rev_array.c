@@ -6,7 +6,7 @@
  * @a: The array.
  * @n: The number of elemnts of array.
  *
- * Return: void/nothing. 
+ * Return: void/nothing.
  *
  */
 
