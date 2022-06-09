@@ -1,21 +1,12 @@
-#include "main.h"
+#include <unistd.h>
 /**
- * main - This code prints "_putchar" and adds a newline.
- *
- * Return: putchar.
+ * -putchar - prints characters of the variable c unto the screen.
+ * Return: 1 on success
+ * on error, -1 is returned.
  *
  */
-int main(void)
+
+int _putchar(char c)
 {
-	char var1[] = "_putchar";
-
-	int c;
-
-	for (c = 0; c < 8; c++)
-	{
-		_putchar(var1[c]);
-	}
-	_putchar('\n');
-	return (0);
-
+	return (write(1, &c, 1));
 }
