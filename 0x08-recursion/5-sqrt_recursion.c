@@ -1,6 +1,6 @@
 #include "main.h"
 
-int _sqrt(int n, counter);
+int _sqrt(int n, int counter);
 /**
  * _sqrt_recursion - A function that returns the natural square root of a
  * number. 
@@ -24,7 +24,7 @@ int _sqrt_recursion(int n)
 }
 
 
-int _sqrt(int n, counter)
+int _sqrt(int n,int counter)
 {
 	if ( n == counter * counter)
 	{
