@@ -23,6 +23,12 @@ int _sqrt_recursion(int n)
 	return (_sqrt(n, 1));
 }
 
+/**
+ * _sqrt - This function finds the square root of a number.
+ * @n: input number.
+ * @counter: counter. 
+ * Return: int. 
+ */
 
 int _sqrt(int n, int counter)
 {
