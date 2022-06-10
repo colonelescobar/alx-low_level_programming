@@ -3,10 +3,10 @@
 int _sqrt(int n, int counter);
 /**
  * _sqrt_recursion - A function that returns the natural square root of a
- * number. 
+ * number.
  *
- * @n: Input number. 
- * Return: int 
+ * @n: Input number.
+ * Return: int
  */
 
 int _sqrt_recursion(int n)
@@ -24,9 +24,9 @@ int _sqrt_recursion(int n)
 }
 
 
-int _sqrt(int n,int counter)
+int _sqrt(int n, int counter)
 {
-	if ( n == counter * counter)
+	if (n == counter * counter)
 	{
 		return (counter);
 	}
@@ -38,4 +38,4 @@ int _sqrt(int n,int counter)
 	{
 		return (_sqrt(n, counter + 1));
 	}
-}	
+}
