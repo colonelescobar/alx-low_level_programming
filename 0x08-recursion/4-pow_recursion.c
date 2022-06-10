@@ -1,14 +1,3 @@
-/**
- * @file 4-pow_recursion.c
- * @author Yinti Agati (tiagati@yahoo.com)
- * @brief A function
- * @version 0.1
- * @date 2022-06-10
- *
- * @copyright Copyright (c) 2022
- *
- */
-
 #include "main.h"
 
 /**
