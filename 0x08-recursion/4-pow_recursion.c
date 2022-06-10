@@ -4,9 +4,9 @@
  * @brief A function
  * @version 0.1
  * @date 2022-06-10
- * 
+ *
  * @copyright Copyright (c) 2022
- * 
+ *
  */
 
 #include "main.h"
@@ -27,9 +27,9 @@ int _pow_recursion(int x, int y)
 	}
 	if (y == 0)
 	{
-		return (1);/* code */
+		return (1);
 	}
-	
+
 		return (x * _pow_recursion(x, (y - 1)));
 
 }
