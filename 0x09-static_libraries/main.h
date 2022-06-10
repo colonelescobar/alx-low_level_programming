@@ -21,4 +21,4 @@ char *_strchr(void);
 unsigned int _strspn(void);
 char *_strpbrk(void);
 char *_strstr(void);
-#endif	
+#endif
