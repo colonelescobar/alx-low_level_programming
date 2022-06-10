@@ -26,8 +26,8 @@ int _sqrt_recursion(int n)
 /**
  * _sqrt - This function finds the square root of a number.
  * @n: input number.
- * @counter: counter. 
- * Return: int. 
+ * @counter: counter.
+ * Return: int.
  */
 
 int _sqrt(int n, int counter)
@@ -43,5 +43,6 @@ int _sqrt(int n, int counter)
 	else
 	{
 		return (_sqrt(n, counter + 1));
+		_putchar('\n');
 	}
 }
