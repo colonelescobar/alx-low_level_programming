@@ -1,0 +1,1 @@
+This file contains projects or tasks in relation to static libraries.
