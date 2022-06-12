@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - A program that prints the name of the file it was compiled from. 
+ * main - A program that prints the name of the file it was compiled from.
  *
- * Retrun: 0.
+ * Return: int.
  */
 
 int main(void)
