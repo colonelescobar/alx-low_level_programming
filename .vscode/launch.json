@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "c:/Users/yinti.agati/alx-low_level_programming",
-      "program": "c:/Users/yinti.agati/alx-low_level_programming/build/Debug/outDebug",
+      "cwd": "c:/Users/yinti.agati/alx-low_level_programming/0x0D-preprocessor",
+      "program": "c:/Users/yinti.agati/alx-low_level_programming/0x0D-preprocessor/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
