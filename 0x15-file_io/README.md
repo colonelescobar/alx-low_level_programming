@@ -1,1 +1,1 @@
-This directory contains files in relation to File input/Output operations in C programming.
+C PROGRAMMING PROJECT FILE I/O
